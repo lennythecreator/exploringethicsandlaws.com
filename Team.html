@@ -3,30 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
     <title>Document</title>
-    
-    <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-    <nav class="flex justify-center fixed top-0 w-full bg-white  p-4 text-center" style="backdrop-filter: blur(8px);">
+<body class="bg-gray-100">
+    <nav class="flex justify-center fixed top-0 w-full bg-white p-4 text-center">
         <ul class="flex">
-            <li class="mr-6 align-middle mt-4"><a href="index.html" class="no-underline">Home</a></li>
-            <li class="mr-6 align-middle mt-4"><a href="Contact.html" class="no-underline">Contact Us</a></li>
-            <li class="mr-6 align-middle mt-4"><a href="Team.html" class="no-underline">Meet the Team</a></li>
+            <li class="mr-6 mt-4"><a href="index.html" class="no-underline">Home</a></li>
+            <li class="mr-6 mt-4"><a href="Contact.html" class="no-underline">Contact Us</a></li>
+            <li class="mr-6 mt-4"><a href="Team.html" class="no-underline">Meet the Team</a></li>
         </ul>
     </nav>
     <div class="pt-20"></div>
-    <div><header class="flex justify-center font-bold text-3xl">Here's the team behind the Article!</header></div>
-    <div class="container flex justify-center content-center mt-2.5" id="container">
-        <div  class="border-solid border-2 bg-zinc-700 h-56 w-56 mx-8 rounded-md">
-            <div class="h-12 w-55 overflow-hidden bg-blue-500 place-content-end"><span class="bg-blue-500">Name</span></div>
+    <header class="flex justify-center font-bold text-3xl">Here's the team behind the Article!</header>
+    <div class="container mx-auto flex justify-center flex-wrap mt-2.5">
+        <div class="border-2 bg-zinc-700 h-56 w-56 mx-4 my-4 rounded-md">
+            <div class="h-12 overflow-hidden bg-blue-500 flex items-end">
+                <span class="bg-blue-500 text-white p-2">Name</span>
+            </div>
         </div>
-        <div  class="border-solid border-2 bg-zinc-700 h-56 w-56 mx-8 rounded-md">
-            <div class="h-12 w-55 overflow-hidden bg-blue-500"><span class="bg-blue-500">Name</span></div>
+        <div class="border-2 bg-zinc-700 h-56 w-56 mx-4 my-4 rounded-md">
+            <div class="h-12 overflow-hidden bg-blue-500 flex items-end">
+                <span class="bg-blue-500 text-white p-2">Name</span>
+            </div>
         </div>
-        <div  class="border-solid border-2 bg-zinc-700 h-56 w-56 mx-8 rounded-md">
-            <div class="h-12 w-55 overflow-hidden bg-blue-500"><span class="bg-blue-500">Name</span></div>
+        <div class="border-2 bg-zinc-700 h-56 w-56 mx-4 my-4 rounded-md">
+            <div class="h-12 overflow-hidden bg-blue-500 flex items-end">
+                <span class="bg-blue-500 text-white p-2">Name</span>
+            </div>
         </div>
     </div>
 </body>
