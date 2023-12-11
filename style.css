@@ -1,0 +1,25 @@
+@keyframes flyInFromLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.fly-in-from-left {
+    animation: flyInFromLeft 1.5s ease-out;
+}
+
+
+
+.card{
+    height: 250px;
+    width: 300px;
+}
+
+#container{
+   top: 20px;
+}
