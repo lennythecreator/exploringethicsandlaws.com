@@ -13,4 +13,20 @@
     animation: flyInFromLeft 1.5s ease-out;
 }
 
+.custombox{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
 
+.navstyle{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.h1-style{
+    margin-top: 48px;
+}
